@@ -9,12 +9,6 @@
     <description>A Java API client for Mesosphere's Marathon.</description>
     <url>https://github.com/mohitsoni/marathon-client</url>
 
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
-    </parent>
-
     <dependencies>
         <dependency>
             <groupId>com.netflix.feign</groupId>
