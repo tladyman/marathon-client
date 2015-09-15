@@ -90,7 +90,7 @@ public interface Marathon {
     public GetQueueResponse getQueue();
 
     @RequestLine("DELETE /v2/queue/{id}/delay") // v0.10.0 onwards
-    Result deleteQueue(@Named("id") String id) throws MarathonException;
+    Result resetDelay(@Named("id") String id) throws MarathonException;
 
     // Server Info
     @RequestLine("GET /v2/info")
